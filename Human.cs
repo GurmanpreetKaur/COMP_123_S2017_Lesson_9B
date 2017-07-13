@@ -6,7 +6,7 @@ using System.Text;
 * Name: Gurmanpreet Kaur
 * Date: July 11,2017
 * DEscription: This is the Abstract Human class
-* Version: 0.1 - Created the Abstract class
+* Version: 0.2 - Added public Abstract method DisplaySkills
 */
 namespace COMP_123_S2017_Lesson_09
 {
@@ -41,6 +41,8 @@ namespace COMP_123_S2017_Lesson_09
         {
             this.Name = name;
         }
+        // public abstract methods
+        public abstract void DisplaySkills();
 
         //Private Methods
 
