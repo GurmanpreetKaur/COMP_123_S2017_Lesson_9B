@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /*
- * Name: Gurman Mangat
+ * Name: Gurmanpreet Kaur
  * Date: July 11,2017
  * DEscription: Demo for Lesson 9
  * Version: 0.1 - Created the Program class

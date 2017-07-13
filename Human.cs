@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 /*
-* Name: Gurman Mangat
+* Name: Gurmanpreet Kaur
 * Date: July 11,2017
 * DEscription: This is the Abstract Human class
 * Version: 0.1 - Created the Abstract class

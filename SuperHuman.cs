@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 /*
-* Name: Gurman Mangat
+* Name: Gurmanpreet Kaur
 * Date: July 11,2017
 * DEscription: This is the SuperHuman class that extends the Human Abstract class
 * Version: 0.1 - Created the SuperHuman class
