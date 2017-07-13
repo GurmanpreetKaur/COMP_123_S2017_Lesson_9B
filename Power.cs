@@ -7,7 +7,7 @@ using System.Text;
  * Name: Gurmanpreet Kaur
  * Date: July 11,2017
  * DEscription: Demo for Lesson 9
- * Version: 0.1 - Created the Power class
+ * Version: 0.2 - Added a new constructor
  */
 namespace COMP_123_S2017_Lesson_09
 {
@@ -21,5 +21,16 @@ namespace COMP_123_S2017_Lesson_09
         public int Rank { get; set; }
 
         // constructor------------------------
+        /// <summary>
+        /// this is the main consctrutor for the power class
+        /// it takes two arguments - name (string) - rank (int)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public Power(string name, int rank)
+        {
+            this.Rank = rank;
+            this.Name = name;
+        }
     }
 }

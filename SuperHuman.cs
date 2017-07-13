@@ -19,8 +19,15 @@ namespace COMP_123_S2017_Lesson_09
     {
         // private instance variables
         private List<Power> _powers;
-        
+
         // public properties
+        public List<Power> Powers {
+            get
+            {
+                return this._powers; // returns a reference
+            }
+        }
+                
 
         // constructors
 
