@@ -7,8 +7,7 @@ using System.Text;
 * Name: Gurmanpreet Kaur
 * Date: July 11,2017
 * DEscription: This is the SuperHuman class that extends the Human Abstract class
-* Version: 0.4 - Added DisplayPowers method
-*/
+* Version: 0.4 - Added Overridden method ToString*/
 namespace COMP_123_S2017_Lesson_09
 {
     /// <summary>
@@ -78,5 +77,24 @@ namespace COMP_123_S2017_Lesson_09
                 Console.WriteLine("Power:{0}  Rank:{1}", power.Name,power.Rank);
             }
         }
+        /// <summary>
+        /// overridden the built-in Tostring method
+        /// </summary>
+        /// <returns>
+        /// string</returns>
+        public override string ToString()
+        {
+            string outputString = "";
+            outputString += "----------------------------------------\n";
+            outputString += "SuperHuman name:" + this.Name + "\n";
+            foreach (Power power in this.Powers)
+            {
+                outputString += "powers: " + "Rank: " + power.Rank + "\n";
+            }
+            outputString += "----------------------------------------\n";
+            return outputString;
+        }
+
+
     }
 }
