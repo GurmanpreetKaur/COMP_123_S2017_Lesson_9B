@@ -7,7 +7,7 @@ using System.Text;
 * Name: Gurmanpreet Kaur
 * Date: July 11,2017
 * DEscription: This is the SuperHuman class that extends the Human Abstract class
-* Version: 0.4 - Added Overridden method ToString*/
+* Version: 0.5 - Added stub method DisplaySkills to conform to Human Abstarct Superclass*/
 namespace COMP_123_S2017_Lesson_09
 {
     /// <summary>
@@ -93,6 +93,14 @@ namespace COMP_123_S2017_Lesson_09
             }
             outputString += "----------------------------------------\n";
             return outputString;
+        }
+        /// <summary>
+        /// this is the DisplaySkills Method 
+        /// needs to be implemented
+        /// </summary>
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("not implemented!!");
         }
 
 
