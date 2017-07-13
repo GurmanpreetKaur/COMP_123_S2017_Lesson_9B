@@ -7,7 +7,7 @@ using System.Text;
 * Name: Gurmanpreet Kaur
 * Date: July 11,2017
 * DEscription: This is the SuperHuman class that extends the Human Abstract class
-* Version: 0.3 - Added AddPower method
+* Version: 0.4 - Added DisplayPowers method
 */
 namespace COMP_123_S2017_Lesson_09
 {
@@ -66,6 +66,17 @@ namespace COMP_123_S2017_Lesson_09
         public void AddPower(string name, int rank)
         {
             this.Powers.Add(new Power(name, rank));
+        }
+        /// <summary>
+        /// this method displays the Powers stored in the Powers List
+        /// </summary>
+
+        public void DisplayPowers()
+        {
+            foreach (Power power in this.Powers)
+            {
+                Console.WriteLine("Power:{0}  Rank:{1}", power.Name,power.Rank);
+            }
         }
     }
 }
