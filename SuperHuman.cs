@@ -7,7 +7,7 @@ using System.Text;
 * Name: Gurmanpreet Kaur
 * Date: July 11,2017
 * DEscription: This is the SuperHuman class that extends the Human Abstract class
-* Version: 0.2 - Added _initialize methosd
+* Version: 0.3 - Added AddPower method
 */
 namespace COMP_123_S2017_Lesson_09
 {
@@ -57,5 +57,15 @@ namespace COMP_123_S2017_Lesson_09
 
 
         //public methods
+        /// <summary>
+        /// this methos adds power to the power list
+        /// it takes two arguments - name(string) - rank (int)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public void AddPower(string name, int rank)
+        {
+            this.Powers.Add(new Power(name, rank));
+        }
     }
 }

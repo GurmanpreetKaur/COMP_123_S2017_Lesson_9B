@@ -7,7 +7,7 @@ using System.Threading.Tasks;
  * Name: Gurmanpreet Kaur
  * Date: July 11,2017
  * DEscription: Demo for Lesson 9
- * Version: 0.2  - instantiated an object of  type superhuman
+ * Version: 0.3  - Added a Power to the SuperHuman object
  */
  
 namespace COMP_123_S2017_Lesson_09
@@ -17,7 +17,7 @@ namespace COMP_123_S2017_Lesson_09
         static void Main(string[] args)
         {
             SuperHuman superhuman = new SuperHuman("Super dude");
-            superhuman.Powers.Add(new Power("Spider Climibing",50));
+            superhuman.AddPower("Spider Climbing", 50);
         }
     }
 }
