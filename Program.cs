@@ -17,14 +17,21 @@ namespace COMP_123_S2017_Lesson_09
     {
         static void Main(string[] args)
         {
-            SuperHuman superhero = new SuperHuman("Super dude");
-            superhero.Powers.Add(new Power("Teleportation ", 50));
-            superhero.Powers.Add(new Power("Phasing", 40));
-            superhero.Powers.Add(new Power("Invisibility Rank ", 30));
-            Console.WriteLine(superhero.ToString());
-           /* superhero.AddPower("Spider Climbing", 50);
-            superhero.AddPower("Webcasting", 40);
-            superhero.DisplayPowers();*/
+            SuperHero superhero = new SuperHero("Super dude",67);
+              superhero.Powers.Add(new Power("Teleportation ", 50));
+              superhero.Powers.Add(new Power("Phasing", 40));
+              superhero.Powers.Add(new Power("Invisibility", 30));
+              Console.WriteLine(superhero.ToString());
+            Console.WriteLine("Karma: " + superhero.Karma);
+
+            SuperVillan supervillan = new SuperVillan("Super Villan",90);
+           supervillan.Powers.Add(new Power("Destroy Human", 50));
+           supervillan.Powers.Add(new Power("Flying", 40));
+           supervillan.Powers.Add(new Power("Invisibility", 30));
+           Console.WriteLine(supervillan.ToString());
+            Console.WriteLine("Malice: " + supervillan.Malice);
+
+
         }
     }
 }

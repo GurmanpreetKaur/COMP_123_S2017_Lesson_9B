@@ -89,7 +89,7 @@ namespace COMP_123_S2017_Lesson_09
             outputString += "SuperHuman name:" + this.Name + "\n";
             foreach (Power power in this.Powers)
             {
-                outputString += "powers: " + "Rank: " + power.Rank + "\n";
+                outputString += "powers: " + power.Name +  "  Rank: " + power.Rank + "\n";
             }
             outputString += "----------------------------------------\n";
             return outputString;

@@ -20,7 +20,7 @@ namespace COMP_123_S2017_Lesson_09
         //private instance Variables
         private int _malice;
         //public properties 
-        public int Karma
+        public int Malice
         {
             get
             {
@@ -32,9 +32,9 @@ namespace COMP_123_S2017_Lesson_09
             }
         }
         // constructors 
-        public SuperVillan(string name) : base(name)
+        public SuperVillan(string name, int malice) : base(name)
         {
-
+            this._malice = malice;
         }
     }
 }

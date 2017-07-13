@@ -27,7 +27,7 @@ namespace COMP_123_S2017_Lesson_09
             }
             set
             {
-                this.Karma = value;
+                this._karma = value;
             }
         }
         //constructors
